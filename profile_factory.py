@@ -16,7 +16,7 @@ import numpy as np
 class Profile(NamedTuple):
     """
     A tuple for load profile information.
-    
+
     Attributes
     ----------
     dss_commands : list of str

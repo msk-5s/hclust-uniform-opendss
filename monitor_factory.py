@@ -4,9 +4,9 @@
 This module contains functions for making monitors.
 """
 
-import win32com.client
-
 from typing import List, NamedTuple, Sequence
+
+import win32com.client
 
 from rich.progress import track
 
@@ -17,7 +17,7 @@ import pandas as pd
 class Monitor(NamedTuple):
     """
     A tuple of monitor information.
-    
+
     Attributes
     ----------
     dss_command : str
